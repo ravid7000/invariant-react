@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.css'
 
 const Invariant = ({ condition, className, message, as, ...props }) => {
     if (!condition) {

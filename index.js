@@ -1,3 +1,3 @@
-import Invariant from './invariant'
+import Invariant from './src/invariant'
 
 export default Invariant
