@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ravid7000/invariant-react.git"
+    "url": "git+https://github.com/ravid7000/react-invariant.git"
   },
   "keywords": [
     "invariant",
@@ -17,9 +17,9 @@
   "author": "Ravi Dhiman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ravid7000/invariant-react/issues"
+    "url": "https://github.com/ravid7000/react-invariant/issues"
   },
-  "homepage": "https://github.com/ravid7000/invariant-react#readme",
+  "homepage": "https://github.com/ravid7000/react-invariant#readme",
   "devDependencies": {
     "babel-eslint": "9.x",
     "eslint": "5.12.0",
