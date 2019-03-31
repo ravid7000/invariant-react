@@ -8,3 +8,5 @@ export interface InvariantProps extends HTMLAllCollection {
 }
 
 declare class Invariant extends React.Component<InvariantProps, any> {}
+
+export default Invariant
