@@ -16,19 +16,12 @@ const Invariant = ({ condition, className, message, as, ...props }) => {
     }
 
     className = className ? `invariant ${className}` : 'invariant'
-    if (as) {
-        return React.createElement(as, {
-            ...props,
-            className,
-            children: message,
-        })
-    }
-
-    return (
-        <div {...props} className={className}>
-            {message}
-        </div>
-    )
+    as = as ? as : 'div'
+    return React.createElement(as, {
+        ...props,
+        className,
+        children: message,
+    })
 }
 
 export default Invariant
