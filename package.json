@@ -35,5 +35,6 @@
   },
   "peerDependencies": {
     "react": "^16.x"
-  }
+  },
+  "typings": "./index.d.ts"
 }
