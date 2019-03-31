@@ -1,0 +1,29 @@
+{
+  "name": "invariant-react",
+  "version": "0.1.0",
+  "description": "React component of invariant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravid7000/invariant-react.git"
+  },
+  "keywords": [
+    "invariant",
+    "react"
+  ],
+  "author": "Ravi Dhiman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ravid7000/invariant-react/issues"
+  },
+  "homepage": "https://github.com/ravid7000/invariant-react#readme",
+  "devDependencies": {
+    "react": "^16.8.6"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0"
+  }
+}
