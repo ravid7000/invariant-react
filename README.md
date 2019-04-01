@@ -19,7 +19,7 @@ import Invariant from 'react-invariant'
 
 <Invariant condition={someTruthyVal} message="This will not show" />
 // or
-<Invariant condition={someTruthyVal} message="This will show this message in red text" />
+<Invariant condition={someFalseVal} message="This will show message in red text" />
 ```
 
 ## Props:
@@ -29,6 +29,6 @@ import Invariant from 'react-invariant'
 | condition | Falsey value to show the message                               |
 | message   | `React` element or `string` to show when `condition` is falsey |
 | className | Pass `string` of className                                     |
-| as        | `React` element or `string` to override default `div` tag      |
+| as        | `string` to override default `div` tag. e.g `span`             |
 
-It also support other `HTML` props.
+It also supports `HTMLElement` props.
